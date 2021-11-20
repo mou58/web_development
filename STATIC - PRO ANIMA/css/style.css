@@ -1,0 +1,805 @@
+/*********************************
+		     =GENERAL CSS
+ *********************************/
+
+@charset "UTF-8"
+
+*{
+	box-sizing:border-box;
+}
+header,main,nav,article,section,aside,footer{
+	display: block;
+}
+div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+
+
+.sec-pad{
+	padding: 70px 0px;
+}
+
+.sec-header{
+	margin-bottom: 30px;
+}
+.sec-header span{
+	font-size: 12px;
+	border-left: 5px solid orange;
+	padding-left: 10px;
+}
+.sec-header .top-rule{
+	margin:0px 0px 3px;
+	width: 80px;
+	border:3px solid orange;
+}
+ .bg-color{
+  background-color:rgba(24,24,24,.5);
+  width: 100%;
+  height: 100%;
+
+}
+
+
+ /*********************************
+		     =HEADER CSS
+  *********************************/
+
+header.pg-header{
+	width:100%;
+	height: 650px; 
+	background-image: url(../images/62.jpg);
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+.pg-header .bg-color{
+	background-color:rgba(24,24,24,.5);
+	width: 100%;
+	height: 100%;
+
+}
+.pg-header .logo{
+}
+.pg-header .logo img{
+	width: auto;
+	height: auto;
+}
+.pg-header .menu{
+	color:#ffffff;
+	font-size: 12px;
+
+}
+.pg-header .menu .social {
+margin-top: 25px;
+}
+.pg-header .menu .social i{
+margin-left: 18px;
+margin-right: 5px;
+}
+
+ /*********************************
+		     =HEADER menu CSS
+  *********************************/
+
+.pg-header .menu ul {
+	padding: 0px;
+	float: right;
+	margin-top:30px;
+}
+.pg-header .menu ul li {
+	display: inline;
+	margin-left: 20px;
+
+}.pg-header .menu ul li a{
+    text-transform: uppercase;
+	font-weight: 200;
+	color:#ffffff;
+	font-size: 10px;
+}.pg-header .menu ul li a:hover{
+	color: gray;
+}
+.main-header-text{
+	text-align: center;
+	margin-top:150px;
+	margin-bottom: 170px;
+}
+.main-header-text h1{
+font-weight: 700;
+margin-bottom: 25px;
+color: white;
+font-size: 40px;
+text-transform: uppercase;
+}
+.main-header-text p{
+font-weight:300;
+margin-bottom: 60px;
+color: white;
+text-transform: uppercase;
+}
+
+.main-header-text a{
+font-weight:300;
+margin-bottom: 30px;
+color: tan;
+padding: 10px 20px;
+border:2px solid orange;
+color: white;
+text-transform: uppercase;
+}
+
+.y-button{
+	font-weight:300;
+margin-bottom: 30px;
+color: tan;
+padding: 10px 20px;
+border:2px solid orange;
+color: white;
+text-transform: uppercase;
+}
+
+
+ /*********************************
+	 =SECTION our success CSS
+  *********************************/
+
+  section.oursuccess{
+  	background-color:red;
+  	overflow: hidden;
+  }
+  .ruletext{
+
+  }
+  .ruletext h2{
+  	text-transform: uppercase;
+  	margin-top: 10px;
+  	font-weight: 300;
+  	font-size: 24px;
+  }
+  .ruletext .rule {
+width: 20px;
+border:2px solid white;
+text-align: left;
+margin:1px 0px 10px;
+  }
+ .ruletext .yellow-rl{
+border:2px solid yellow;
+  }
+
+
+.oursuccess .topbar{
+  width: 100%;
+  height: auto;
+  }
+.oursuccess .topbar .top-left{
+  width: 50%;
+  height: 400px;
+  background-color: #fff;
+  float: left;
+  }
+ .topbar .top-left img{
+  width:100%;
+  height:100%;
+  }
+  .oursuccess .topbar .top-right{
+  width: 50%;
+  height: 400px;
+  background-color:#F6E25D;
+  padding: 50px 20px 50px 30px;
+  float: left;
+  }
+
+
+.oursuccess .lowerbar{
+  width: 100%;
+  height:310px;
+  }
+  .lowerbar .lower-pic{
+  width: 25%;
+  height:100%;
+  float: left;
+  }
+  .lowerbar .lower-pic img{
+  width: 100%;
+  height:100%;
+    float: left;
+  }
+   .lowerbar .lower-text{
+  width: 25%;
+  height:100%;
+  padding:20px; 
+  float: left;
+  background-color:#F6E25D;
+
+  }
+  .lowerbar .lower-text .faicon{
+  margin: 7px 0px;
+
+  }
+   .lowerbar .bg-white{
+background-color: #ffffff;
+  }
+
+
+
+ /*********************************
+	 =SECTION about-pet CSS
+  *********************************/
+
+
+section.about-pet{
+
+}  
+.about-pet .pet-info{
+	
+}  
+.about-pet .pet-info img{
+margin-bottom: 10px;	
+}  
+.about-pet .pet-info h2{
+	margin: 
+}  
+.about-pet .pet-info p{
+	margin:20px 0px 30px;
+}  
+.about-pet .pet-info a{
+	color: black;
+}  
+
+
+/*********************************
+	 =SECTION about-pet CSS
+  *********************************/
+
+section.pet-profile{
+overflow: hidden;
+background-color: #FAFAFA;
+}
+.pet-profile .prof-left{
+	background-color:#F6E25D;
+}
+.prof-left img{
+	margin-bottom: 10px;
+  overflow: hidden;
+}
+
+ .prof-left p,.prof-left .ruletext{
+ 	margin-left: 20px;
+}
+ .pet-lt-doc{
+  padding-bottom: 20px; 
+}
+.pet-rt-doc{
+	margin-left: 288px;
+	margin-top: 30px;
+}
+.pet-rt-doc p{
+	margin-top: 5px;
+}
+.pet-rt-doc a{
+  background-color: #fff;
+  color: black;
+  border:none;
+  border-radius: 5px;
+}
+.pet-rt-doc .full{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.pet-profile .prof-right{
+
+}
+.prof-right .pet-info .ruletext, .pet-info p{
+  margin-left: 20px;
+}
+.pet-info .ruletext{
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: green;
+}
+.slider-ball{
+  margin-top: 50px;
+  background-color: black;
+  margin-left: 50px;
+
+}
+.slider-ball ul li{
+  display: inline;
+  margin-right:20px;
+  float:left;
+}
+.slider-ball ul li .slide-box{
+  width: 10px;
+  height: 10px;
+  background-color:orange;
+}
+.slider-ball ul li .slide-box:hover{
+  width: 10px;
+  height: 10px;
+  background-color:red;
+}
+
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+  
+section.recent-doc{
+overflow: hidden;
+}
+.recent-doc .recent-info img{
+width: 100%;
+height: auto;
+}
+.recent-doc .recent-info .recent-text{
+margin-top: 30px;
+}
+.recent-text h2{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.recent-text p{
+  margin-bottom: 20px;
+}
+.recent-info .social span{
+  margin-left: 5px;
+  margin-right: 17px;
+}
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+  
+section.help{
+overflow: hidden;
+background-image: url(../images/cat.jpg);
+background-repeat: no-repeat;
+-webkit-background-size: ;
+background-size:100% 118% ;
+color: white;
+height: 350px;
+}
+.help .help-text{
+margin-top: 130px;
+}
+.help .help-text h2{
+margin-bottom:15px;
+}
+.help-us{
+margin-top:110px;
+text-align: right;
+}
+.help-us p{
+margin-bottom:10px;
+}
+.help-us .button{
+margin-top:30px;
+}
+.help-us a{
+padding: 10px 25px;
+margin-top: 30px;
+background-color: orange;
+border-radius: 10px;
+color:white;
+text-align: center;
+}
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+  
+section.team-grp{
+overflow: hidden;
+}
+.team-grp .grp-membr .ruletext{
+margin-top: 20px;margin-bottom: 20px;
+}
+.team-grp .grp-membr .ruletext .yellow-rl{
+margin-top: 3px;
+border:2px solid orange;
+}
+
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+  
+section.testimonial{
+overflow: hidden;
+background-color: #FAFAFA;
+}
+.testimonial img{
+width: 100%;
+height: auto;
+}
+.testimonial .test-text p{
+margin-top: 90px;
+margin-bottom:50px;
+background-color:#F2F2F2;
+padding: 50px;
+}
+
+.testimonial .ruletext p{
+padding: 0px;
+background-color:#FAFAFA;
+margin: 0px;
+}
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+  
+section.partners{
+overflow: hidden;
+}
+.partners .part-double{
+text-align: center;
+}
+.partners .part-double h2{
+font-weight:500;
+font-size:20px;
+margin-bottom:5px
+
+}
+.partners .part-single{
+text-align: center;
+}
+.partners .part-single h2{
+font-weight:700;
+}
+.partners .part-single img{
+text-align: center;
+margin-top: 20px;
+margin-bottom:20px;
+}
+.partners [class^="part"]{
+text-align: center;
+color:black;
+border:1px solid gray;
+margin-bottom:30px;
+padding: 20px;
+height: 210px;
+box-sizing:border-box;
+}
+.partners [class^="part"] img{
+margin-top: 20px;
+margin-bottom:20px;
+}
+
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+    
+section.success-story{
+overflow: hidden;
+background-image: url(../images/cat.jpg);
+background-repeat: no-repeat;
+background-size:100% 118% ;
+color: white;
+height: 350px;
+}
+.success-story .suc-text{
+text-align: center;
+margin-top: 100px;
+}
+.suc-text{
+text-align: center;
+margin-top: 100px;
+}
+.suc-text h2{
+text-align: center;
+margin-top: 50px;
+}
+.suc-text h1{
+font-size: 50px;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+    
+section.grp-gallary{
+overflow: hidden;
+width: 100%;
+padding-bottom: 0px;
+
+}
+.grp-gallary ul{
+text-align: center;
+margin-bottom:50px;
+margin-top: 30px;
+}
+.grp-gallary ul li{
+  list-style: none;
+  display: inline;
+  color: black;
+  margin-right: 10px;
+}
+.grp-gallary ul li a{
+  color: black;
+}
+.grp-gallary .gallary-pics .single-pics{
+  width:25%;
+  height:300px;
+  float: left;
+}
+.gallary-pics .single-pics img{
+  width:100%;
+  height:100%;
+  background-color:red;
+}
+
+
+w: hidden;
+}
+.recent-news .faicon{
+margin-right: 10px;
+}
+.recent-news .social{
+  margin-top:5px; 
+}
+.recent-news .pettext{
+}
+.recent-news .social span{
+margin-left:3px;
+margin-right:10px;
+}
+.recent-news .pet-info{
+  margin-top:5px; 
+}
+.recent-news .pet-info p{
+  margin-top:25px; 
+  margin-left: 0px;
+  margin-bottom: 35px;
+}
+.recent-news .pet-info .y-button{
+ color: black;
+}
+
+
+/*********************************
+   =SECTION about-pet CSS
+  *********************************/
+
+    
+section.get-contact{
+overflow: hidden;
+}
+.form{
+  margin-top: 40px;
+}
+.get-contact .input{
+width: 90%;
+margin-bottom: 35px;
+}
+.input .in-icon{
+float: left;
+width: 10%;
+height: 42px;
+background-color:gray;
+text-align: center;
+}
+.get-contact .in-yellow{
+background-color:orange;
+}
+.input i{
+margin-top: 15px;
+}
+.input input{
+width: 90%;
+padding: 10px;
+border:1px solid gray;
+border-left: none;
+
+}
+.input textarea{
+width:90%;
+min-height: 120px;
+background-color:lightgray;
+padding: 10px;
+max-height: 150px;
+border:1px solid gray;
+border-left: none;
+}
+.in-tall .in-icon{
+height: 120px;
+}
+
+input[type="submit"]{
+  width: 200px;
+  padding-bottom: 12px;
+  background-color: orange;
+  border:none; 
+}
+.in-submit:last-child{
+  width: 225px;
+  border-radius:5px;
+  color: black;
+  float: left;
+  overflow: hidden; 
+}
+
+
+/*********************************
+   =SECTION location CSS
+  *********************************/
+
+    
+section.location{
+overflow: hidden;
+width: 100%;
+height: 200px;
+background-color:lightgray;
+}
+.location .address{
+margin-left: 25%;
+width: 25%;
+height: 100%;
+float: left;
+background-color:lightblue;
+text-align: center;
+padding: 10px;
+}
+.location .map{
+  float: left;
+width: 25%;
+height: 100%;
+background-color:lightgreen;
+text-align: center;
+padding: 10px;
+}
+.location .faicon{
+margin-top: 40px;
+margin-bottom:15px;
+}
+
+
+/*********************************
+   =footer CSS
+  *********************************/
+footer{
+  overflow: hidden;
+  background-color: black;
+}
+footer .logomenu{
+background-color: black;
+color: white;
+padding: 20px 0px;
+}
+footer .logomenu ul{
+  float: right;
+  margin-top: 5px;
+}
+footer .logomenu ul li{
+  margin-left: 25px;
+  display: inline;
+  float: left;
+  text-align: center;
+
+}
+footer .logomenu ul li a{
+  color: gray;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+footer .ft-info{
+  padding: 50px 0px;
+  background-color: gray;
+}
+.ft-info h2{
+  margin-bottom:20px;
+  text-transform: uppercase;
+}
+.ft-info p{
+  margin-bottom:5px;
+}
+.ft-info p>span{
+  margin-right:15px;
+}
+
+.ft-photos{
+  width: 100%;
+
+}
+.ft-photos img{
+  width:48%;
+  background-color: red;
+  height:75px;
+  margin-bottom:8px;
+  float: left;
+  margin-right: 2%;
+}
+
+.copyright{
+  padding: 20px;
+  text-align: center;
+  background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bg-color">
+
+
+
+<div class="ruletext">
+	<h2>Turkey</h2>
+	<hr class="rule white-rl">
+</div>
+
+
+sec-pad
+
+rule yellow-rl
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

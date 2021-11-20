@@ -1,0 +1,152 @@
+/*********************************
+		     =GENERAL CSS
+ *********************************/
+
+@charset "UTF-8"
+
+*{
+	box-sizing:border-box;
+}
+header,main,nav,article,section,aside,footer{
+	display: block;
+}
+div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0px auto;
+	padding:0px;
+}
+
+
+ /*********************************
+		     =HEADER CSS
+  *********************************/
+
+header.mainheader{
+ 	overflow: hidden;
+}
+ .topbar{
+ 	background-color:#ffa500;
+ 	width:100%;
+ 	height: 23px;
+ }
+ .topbar .social{
+ 	width: 90%;
+
+ }
+  .topbar .social .faicon{
+ 	float:right;
+ 	padding:5px 5px;
+ }
+
+ .logomenu{
+ }
+ .logo{
+ 	margin:5px 0px;
+ 	float: left;
+ 	width:13%;
+ }
+  .logo img{
+ 	width: 100%;
+ 	min-width: 150px;
+ }
+/*MENU*/
+
+.menu{
+	float:left;
+	width:77%;
+	text-align: right;
+}
+.menu ul{
+	padding: 0px;
+
+	margin-top: 27px;
+}
+.menu ul li{
+	display: inline;
+	margin-left:20px;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: gray;
+}
+.menu ul li a:hover{
+	color:#ffa500; 
+}
+
+/*********************************
+		=SECTION SLIDER CSS
+  *********************************/
+
+  section.slider{
+width: 100%;
+margin-bottom: 20px;
+  }
+ section.slider img{
+width: 100%;
+  }
+
+/*********************************
+		=SECTION SERVICE CSS
+  *********************************/
+
+section.service-info{
+margin-bottom:30px;
+}
+.serv-header{
+text-align: center;
+margin:10px 0px 30px;
+}
+.serv-header .rule{
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 13px;
+}
+.service-info .ser-box{
+	background-color: lightgreen;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.ser-box .faicon{
+	margin: 20px;
+}
+.ser-box h3{
+ margin-bottom: 20px;
+ font-weight: bold;
+}
+.ser-box p{
+ margin-bottom: 20px;
+ text-align: justify;
+}
+.ser-text{
+ margin:30px;
+
+}
+
+/*********************************
+		=FOOTER CSS
+  *********************************/
+  footer .about-info{
+  	background-color:#ffa500;
+  	color:#ffffff;
+  	padding: 20px;
+  }
+.ft-social{
+	margin:20px 30px 0px;
+}
+.ft-social .faicon{
+margin-right: 5px;
+color:olive;
+}
+.copyright{
+	text-align: center;
+	padding: 10px;
+	color:#ffffff;
+	background-color: black;
+}

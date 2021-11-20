@@ -1,0 +1,166 @@
+header,article,section,aside,footer{
+	display: block;
+}
+div,h1,h2,h3,p,ul,li{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0px;
+	background-color: lightgreen;
+}
+.container{
+	width: 80%;
+	margin:auto;
+}
+/*********************************
+		=common
+ *********************************/
+
+ /*********************************
+		=headder
+ *********************************/
+ header{
+ 	width: 100%;
+ 	height:6em; 
+ 	background: lightyellow;
+ }
+ header {
+ 	background-color:;
+    
+ }
+  
+.logomenu{
+}
+
+.logo{
+	width: 15%;
+	height: 75px;
+	float: left;
+}
+.logo h1{
+	height: 100%;
+	width: 100%;
+	margin: 20px; 
+	color:#ffa500;
+}
+.menu{
+	width: 74%;
+	margin-left: 16%;
+}
+ nav{
+ 	padding-top: 25px; 
+    float: right;
+}
+ul li {
+	display: inline;
+	margin-right:12px;
+
+}
+ul li a{
+	font-weight: bolder;
+	text-decoration: none;
+	color: black;
+
+}
+ul li a:hover{
+	color:#FFA500;
+}
+
+/*********************************
+		=headder
+ *********************************/
+
+ article{
+
+ }
+
+ .slider{
+ 	width: 50%;margin-bottom: 10px;
+ 	float: left;
+ }
+ .slider img{
+ 	width:90%;
+ 	height:600px;
+ }
+ .slid2{
+background-color:brown;
+font-size: 24px;
+color: tan;
+float: right;
+width: 50%;
+margin-bottom: 50px;
+
+ }
+ .slid2 p{
+ 	margin:20px;
+ }
+ .details{
+ 	width: 100%;
+ 	clear: both;
+ }
+.details h1{
+	text-align: center;
+	font-size:2.5em;
+	margin:50px;
+	padding-bottom: 20px;
+}
+
+ .details .description{
+ 	width: 30%;
+ 	float: left;
+ 	margin-left: 2.5%;
+ 	text-align: center;
+ 	background-color:#D7D8DC;
+ 	margin-bottom: 30px;
+ }
+ .ma{
+ 	margin-top: 10px;
+ }
+ .description img{
+ 	width: 300px;
+ 	height: 350px;
+ }
+ .description h2{
+ 	margin:20px 0px;
+ }
+  .description p{
+  	line-height:21px;
+  	margin: 20px;
+ }
+  .description1{
+  	background-color:tan;
+ }
+ .description2{
+  	background-color:lightblue;
+ }
+  .description1{
+  	background-color:lightgreen;
+ }
+/*************************
+		=FOOTER
+**************************/
+
+footer{
+	clear: both;
+	background-color: orange;
+	margin-top: 70px;
+
+}
+
+.ref{
+	width: 100%;
+	clear: both;
+	color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	font-size: 16px;
+	background-color:black;
+}
+/*
+
+codedrop.com =for slide
+
+
+*/

@@ -1,0 +1,244 @@
+/*********************************
+		     =GENERAL CSS
+ *********************************/
+
+@charset "UTF-8"
+
+*{
+	box-sizing:border-box;
+}
+header,main,nav,article,section,aside,footer{
+	display: block;
+}
+div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+
+
+ /*********************************
+		     =HEADER CSS
+  *********************************/
+
+ header{
+ 	background-color: #2d303a;
+ 	height: 100px;
+ }
+ .logo{
+ 	margin-top: 35px;
+ }
+ /*********************************
+		     =menu CSS
+  *********************************/
+ .menu{
+ 	margin-top: 40px;
+ }
+ .menu ul{
+ 	text-align: right;
+ }
+ .menu ul li{
+ 	display: inline;
+ 	margin-left: 25px;
+
+ }
+ .menu ul li a{
+ 	text-transform: uppercase;
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+ .menu ul li a:hover{
+ 	color: #f06c64;
+ }
+
+
+/*********************************
+		=SECTION SLIDER CSS
+  *********************************/
+
+  section{
+  	padding:65px 0px; 
+  }
+  section.slider{
+  	background-color: #f06c64;
+  	text-align: center;
+  }
+
+
+  /*********************************
+		=SECTION SERVICE CSS
+  *********************************/
+
+
+  section.service{
+  	background-color: #f2f2f2;
+  	color:brown;
+  	text-shadow:1px 1px 1px lightyellow;
+  }
+   section .serv-header h2{
+  	margin-bottom:25px;
+  	font-size: 30px;
+  	font-weight: bold;
+  }
+  .service .serv-header p{
+	font-size: 18px;
+	font-weight: lighter;
+	line-height: 20px;
+  }
+  section .serv-header{
+  	margin-bottom: 50px;
+  }
+  section .serv-info{
+	margin-bottom: 40px;
+  }
+
+  .serv-box .serv-icon{
+  float: left;
+  width: 70px;
+  margin-right: 5px;
+  }
+  .serv-box .serv-text{
+  float: left;
+
+  width: 245px;
+  }
+  .serv-box .serv-text h2{
+  margin-bottom: 20px;
+  }
+  .serv-box .serv-text p{
+  	font-size: 14px;
+  	text-align: justify;
+  }
+
+
+  /*********************************
+		=SECTION SERVICE CSS
+  *********************************/
+
+
+section.portfolio {
+background-color: #2d303a;
+color:#ffffff;
+} 
+.portfolio .serv-header{
+}
+.serv-header ul{
+	margin-top: 30px;
+	padding: 0px;
+}
+.serv-header ul li{
+	display: inline;
+	list-style: none;
+	margin-right: 10px;
+}
+.serv-header ul li a{
+	padding: 7px;
+	color: tan;
+	border: 3px solid tan;
+	border-radius: 5px;
+	text-decoration: none;
+
+}
+.serv-header ul li a:hover{
+	color: white;
+	border: 3px solid #ffffff;
+	border-radius: 5px;
+	text-decoration: none;
+
+}
+.port-gallary{
+	margin-bottom: 25px;
+}
+.port-gallary .port-pic img{
+	width: 100%;
+	height: auto;
+}
+
+
+/*********************************
+		=SECTION ABOUT US CSS
+  *********************************/
+
+
+  section .about-info{
+
+  }
+  .about-us .about-info>img{
+	width: 100%;
+	height: auto; 
+  }
+  .about-us .about-info h2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+  }
+  .about-us .about-info p{
+	margin-bottom: 20px;
+  }
+ul.social{
+padding: 0px;
+
+}
+.social li{ 
+display: inline;margin-right: 10px;
+}
+
+
+/*********************************
+		=SECTION CONTACT-INFO CSS
+  *********************************/
+
+
+  section.contact-info{
+	background-color:#f06c64;
+	color: tan;
+  }
+  .con-form input{
+	width: 100%;
+	margin-bottom:3px;
+	border:none;
+	background-color:#d6564f;
+	padding: 10px;
+	border-radius: 3px;  
+  }
+  .con-form textarea{
+	width: 100%;
+	margin-bottom:10px;
+	border:none;
+	background-color:#d6564f;
+	padding: 10px;
+	border-radius: 3px;  
+  }
+  .con-form{}
+  .con-form{}
+
+  .con-text h2{
+  	margin-bottom: 20px;
+  }
+  .con-text p{
+margin-bottom:3px;  
+}
+
+
+.con-text h2+p{
+  	margin-bottom: 30px;
+  }
+  .con-text p>.faicon{
+margin-right: 7px;  
+}
+
+/*********************************
+	    	=FOOTER
+  *********************************/
+  footer{
+  	padding: 20px 0px;
+  	background-color: #2d303a;
+  	color: white;
+  }
+  .copyright p{
+  	margin-top: 7px;
+  }
+
+

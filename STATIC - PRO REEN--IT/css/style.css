@@ -1,0 +1,338 @@
+/*********************************
+		     =GENERAL CSS
+ *********************************/
+
+@charset "UTF-8"
+
+*{
+	box-sizing:border-box;
+}
+header,main,nav,article,section,aside,footer{
+	display: block;
+}
+div,h1,h2,h3,h4,h5,h6,p,ul,ol,li,a{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+
+ /*********************************
+		     =HEADER CSS
+  *********************************/
+header{
+
+}
+header .topbar{
+background-color:#F6F7FB;
+padding: 5px;
+}
+.topbar .topbar-left .faicon{
+margin-right:7px;
+}
+.topbar .topbar-left span{
+margin-right:14px;
+}
+.topbar .topbar-right .faicon{
+margin-left: 3px;
+color:brown;
+}
+.logomenu{
+	height: 100px;
+}
+.logo img{
+	margin-top:28px;
+
+}
+.search i{
+	margin-top:30px;
+	color:#516681;
+
+}
+
+ /*********************************
+		     =HEADER menu CSS
+  *********************************/
+  .menu{
+  }
+  .menu ul{
+  	margin-top:42px;
+  }
+  .menu ul li{
+  	display: inline;
+  	margin-right:20px;
+  }
+  .menu ul li a{
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	font-size: 14px;
+  	color: #516681;
+  	text-shadow:1px 2px 3px rgba(24,24,24,.7);
+	text-decoration: none;
+  }
+  .menu ul li a:hover{
+  	color: black;
+  	font-size: 14.5px;
+	text-decoration: none;
+	position: relative;
+  }
+
+
+  /*********************************
+	     =SECTION BANNER CSS
+  *********************************/
+section{
+	padding: 100px 0px;
+}
+
+section.banner-info{
+	background-image: url(../images/slider.jpg);
+	background-size: 100% 100%;
+	background-color: red;
+	min-height: 600px;
+	padding: 0px;
+}
+
+.banner-info .banner-text{
+	margin-top: 200px;
+	text-align: center;
+	color: white;
+}
+.banner-info .banner-text h1{
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.banner-info .banner-text p{
+	margin-bottom:50px;
+}
+.banner-info .banner-text a{
+	width: 225px;
+	background-color:#00BB9C;
+	padding: 12px 50px;
+	color: white;
+	font-weight: bold;
+	border-radius: 33px;
+	text-align: center;
+}
+
+
+  /*********************************
+	     =SECTION SERVICE CSS
+  *********************************/
+
+
+  section.service{
+  }
+ .serv-header{
+  	margin-bottom: 40px;
+  }
+   .serv-header h2{
+  	margin-bottom: 15px;
+  	font-size: 40px;
+  	text-shadow:2px 3px 5px rgba(24,24,24,.7);
+  	font-weight: bolder;
+
+  }
+   .serv-header p{
+  	text-shadow:1px 2px 3px rgba(24,24,24,.5);
+  	font-weight:300;
+
+  }
+  .serv-box{
+  	
+  }
+   .serv-box .serv-icon{
+  	float: left;
+  	width: 100px;
+  }
+ .serv-box .serv-text{
+  	float: left;
+  	width: 260px;
+  }
+ .serv-box .serv-text h2{
+  	margin-bottom: 15px;
+  	font-weight: bold;
+  	text-shadow:2px 3px 5px rgba(24,24,24,.7);
+  	font-size: 32px;
+  }
+  .serv-box .serv-text p{
+  	font-weight: 300;
+  }
+
+
+
+  /*********************************
+	     =SECTION PRODUCT CSS
+  *********************************/
+  section.product{
+  	background-color:lightgreen ;
+  }
+.product {
+  }
+
+ .prod-pic img{
+	width: 100%;
+	height: auto;
+  }
+  .product .prod-text{
+  	background-color: #fff;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+  }
+  .product .prod-text h3{
+  	margin:20px 10px;
+  }
+   .product .prod-text p{
+  	margin:0px 10px;
+  	margin-bottom: 10px;
+  }
+.prod-gallary{
+	margin: 40px 0px;
+}
+
+.prod-gallary img{
+	border: 2px solid tan;
+}
+.slide ul {
+	padding: 0px;
+	margin-left: 55px;
+}
+.slide ul li{
+list-style: none;
+margin-right: 20px;
+float: left;
+}
+
+.slide ul li div{
+	width: 10px;
+	height: 10px;
+	background-color:brown;
+}
+
+
+
+ /*********************************
+	     =SECTION AGREEMENT CSS
+  *********************************/
+
+
+  section.agreement{
+  	background-color: brown; 	
+  }
+
+ .agreement .banner-text{
+ 	color: tan;
+ 	text-align: center;
+  }
+.agreement .banner-text h1{
+ 	margin-bottom: 30px;
+  }
+  .agreement .banner-text>p{
+ 	margin-bottom: 50px;
+  }
+.agreement .banner-text a{
+	width: 225px;
+	background-color:#00BB9C;
+	padding: 12px 50px;
+	color: white;
+	font-weight: bold;
+	border-radius: 33px;
+	text-align: center;
+}
+
+
+
+ /*********************************
+	     =SECTION ABOUT US CSS
+  *********************************/
+
+section.about-us{
+	background-color: #2F4052;
+	color:#ffffff;
+}
+[class*=our] h2{
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.about-us .ourself h1{
+font-weight: 900;
+font-size: 50px;
+margin-bottom: 10px;
+}
+.about-us .ourself p{
+margin-bottom: 10px;
+}
+
+.about-us .ourself a{
+	color:tan;
+}
+
+.our-work img{
+width: 100%;
+margin-bottom: 30px;
+}
+
+.about-us .our-loc h2+p{
+	margin-bottom: 20px;
+}
+.about-us .our-loc p>.faicon{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.our-new p{
+margin-bottom: 30px;
+}
+.our-new .button{
+	padding: 10px;
+background-color: gray;
+border-radius: 5px;
+}
+.our-new .button input{
+background-color: gray;
+width: 67%;
+border-radius: 5px;
+border:none;
+}
+.our-new .button a{
+background-color:skyblue;
+color:brown;
+font-weight: bold;
+text-transform: uppercase;
+font-size: 12px;
+padding: 3px 5px ;
+float: right;
+border-radius: 5px;
+border:none;
+}
+
+
+/*********************************
+	     =FOOTER
+  *********************************/
+
+footer{
+padding: 15px 0px;
+background-color:#293646;
+border-top:1px dotted tan; 
+}
+
+footer .copyright{
+color: gray;	
+}
+footer .ft-menu{
+color:gray;	
+}
+.ft-menu ul{}
+.ft-menu ul li{
+	display: inline;
+	margin-left: 10px;
+}
+.ft-menu ul li a{
+	color: gray;
+}
+.ft-menu ul li a:hover{
+	color: #ffffff;
+}

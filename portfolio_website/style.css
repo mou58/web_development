@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto Condensed', sans-serif;font-weight:normal;margin-top:0;margin-bottom:15px;text-transform:uppercase}
+html, body {height:100%}
+a:hover {text-decoration:none}
+.fix {overflow:hidden}
+.floatleft {float:left}
+.floatright {float:right}
+.welcome_area {min-height:100%;background:url(images/pattern.png);position:relative;margin-bottom:-50px}
+.column {width:960px;display:block;margin:0 auto}
+.welcome {}
+.logo {position:absolute;top:30px;}
+.logo img{}
+.welcome_bottom {border-top: 1px solid #FFFFFF; bottom: 150px; color: #FFFFFF; padding-top: 25px; position: absolute;}
+.welcome_bottom h1{text-transform:uppercase;font-size:90px;color:#fff;line-height:110px}
+.mainmenu_area {background:#000;min-height:50px;position:relative;z-index:99999}
+.mainmenu {}
+.mainmenu ul{margin:0;padding:0;list-style:none}
+.mainmenu ul li{float:left}
+.mainmenu ul li a{display:block;color:#fff;text-transform:uppercase;padding:15px;font-family: 'Roboto Condensed', sans-serif;font-size:20px}
+.mainmenu ul li a:hover{}
+.our_team_area {background:#FFFFFF}
+.out_team {margin-top: 80px;}
+.out_team p, .about_us p, .our_service p, .portfolio p{font-size:20px;line-height:25px}
+.out_team h1, .about_us h1, .our_service h1, .portfolio h1, .contact_us h1{font-size: 70px; line-height: 90px; text-transform: uppercase;margin-bottom:40px}
+.our_team_member {margin-left: -35px;
+margin-top: 50px;}
+.single_team {margin-left: 35px; width: 296px;font-size:16px;}
+.single_team img{margin-bottom:25px}
+.single_team h2{text-transform:uppercase;margin:0;font-size:25px;line-height:25px}
+.single_team h4{font-size:11px;color:#868991}
+.single_team p, .our_single_service  p{font-size:13px;line-height:18px}
+.our_promotions {border-left: 5px solid #DDDDDD;
+margin: 65px 0;
+padding-left: 25px;}
+.about_us_area {background:#F0F2F5}
+.about_us, .our_service {margin: 80px auto;}
+.our_promotions h1{font-size: 35px;
+line-height: 40px;
+margin-bottom: 10px;}
+.our_promotions p{font-size: 14px; line-height: 18px;}
+.our_promotions a{background: none repeat scroll 0 0 #333333;
+color: #FFFFFF;
+display: inline-block;
+font-size: 15px;
+margin-bottom: 5px;
+margin-top: 5px;
+padding: 5px 25px;}
+.about_us_video_area {background:#fff}
+.about_us_video, .portfolio_area {padding:80px 0}
+.about_us_video iframe{width:960px;height:500px;}
+.another_service_area {background:#F0F2F5}
+.another_service {padding:80px 0}
+.another_sevrice_left, .another_sevrice_right {width:400px;}
+.another_sevrice_left {margin-right:150px}
+.another_sevrice_right {}
+.our_services_area {background:#fff}
+.our_service {}
+.our_service_list {margin-left: -80px;margin-top:80px}
+.our_single_service {margin-left: 80px; text-align: center; width: 266px;}
+.our_single_service img{background: none repeat scroll 0 0 #F0F2F5;
+border-radius: 160px 160px 160px 160px;
+margin-bottom: 20px;
+margin-top: 5px;
+padding: 35px;}
+.portfolio_area {background:#F0F2F5}
+.portfolio {}
+.portfolio_list {margin-left: -20px;margin-top:80px}
+.single_p_list {margin-bottom: 20px;
+margin-left: 20px;
+width: 220px;}
+.single_p_list img {margin-bottom:5px}
+.single_p_list h2{color: #000000;
+font-size: 14px;
+font-weight: bold;
+line-height: 18px;
+margin-bottom: 5px;}
+.single_p_list h3{font-size: 11px;
+line-height: 16px;}
+.contact_us_area {min-height:100%}
+.contact_us {background: url("images/contact-bg.png") repeat scroll 0 0 transparent;
+margin-top: 12%;
+position: relative;
+z-index: 99999;color:#fff;text-align:center}
+.contact_us h1 {margin-bottom:0px}
+.contact_quicklinks {position:relative;z-index:999999}
+.contact_quicklinks{margin:0;padding:0;list-style:none;}
+.contact_quicklinks li{display:inline}
+.contact_quicklinks li a{display:inline-block;color:#fff;background:#000;border-radius:15px;margin:5px 0;padding:0 10px;}
+.social_connect_icon {margin:0;padding:0;list-style:none}
+.social_connect_icon li{display:inline;text-indent:-999999px}
+.social_connect_icon li a{height:75px;width:75px;display:inline-block;transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+.social_connect_icon li a:hover{height:75px;width:75px;display:inline-block;}
+.facebook_icon {background:url(images/facebook.png)}
+.facebook_icon:hover {background:url(images/facebook_hover.png)}
+.twitter_icon {background:url(images/twitter.png)}
+.twitter_icon:hover {background:url(images/twitter_hover.png)}
+.pinterest_icon {background:url(images/pinterest.png)}
+.pinterest_icon:hover {background:url(images/pinterest_hover.png)}
+.feed_icon {background:url(images/feed.png)}
+.feed_icon:hover {background:url(images/feed_hover.png)}
+.contact_fullwidth {height: 100%;
+position: absolute;
+width: 100%;
+z-index: 9;}
+.contact_us_inner {padding:80px}
+
+
+.stick {
+	position:fixed;
+	top:0px;
+	width:100%;
+}
